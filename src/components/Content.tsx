@@ -36,10 +36,9 @@ function Content (
                                 isLoaded={isLoaded}
                                 setIsLoaded={setIsLoaded}
                     />
-                {
-                    isLoaded && <Title title={title} 
-                                       isLoaded={isLoaded}/>
-                }
+                <Title title={title} 
+                       isLoaded={isLoaded}/>
+        
         </div>
     )
 }

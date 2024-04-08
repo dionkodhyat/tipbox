@@ -17,7 +17,7 @@ export type JsonPlaceholderData = {
 
 type Error = any;
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 5;
 const ROUTE = "https://jsonplaceholder.typicode.com/photos";
 
 function Gallery() {

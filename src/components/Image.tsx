@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Loader from './Loader';
 
 type ImageProps = React.HTMLProps<HTMLImageElement> & {
     src: string;
@@ -29,7 +28,7 @@ function ImageComponent (
         ...rest
     } : ImageProps
 ) {
-    
+
     const [cachedSrc, setCachedSrc] = useState<string | null>(null);
 
     // retrieve image from the cache based on src, if there are none then store the iamge
@@ -66,7 +65,6 @@ function ImageComponent (
 
     return (
         <div className="img-container">
-            {!isLoaded && <Loader />}
             <img
                 alt={title}
                 loading={"lazy"}
