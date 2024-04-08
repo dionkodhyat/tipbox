@@ -24,10 +24,7 @@ function Title (
 
 
     return (
-        <div className={classNames({
-                "opacity-0": !isLoaded,
-                "opacity-1": isLoaded,
-            }, "opacity-ease-in-out-500ms", "title")}
+        <div className={"title"}
             {...rest}
         >
             {title}
