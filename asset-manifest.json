@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tipbox/static/css/main.256e0df5.css",
-    "main.js": "/tipbox/static/js/main.5705011c.js",
+    "main.js": "/tipbox/static/js/main.b2484e5e.js",
     "static/js/453.9d2c6a83.chunk.js": "/tipbox/static/js/453.9d2c6a83.chunk.js",
     "index.html": "/tipbox/index.html",
     "main.256e0df5.css.map": "/tipbox/static/css/main.256e0df5.css.map",
-    "main.5705011c.js.map": "/tipbox/static/js/main.5705011c.js.map",
+    "main.b2484e5e.js.map": "/tipbox/static/js/main.b2484e5e.js.map",
     "453.9d2c6a83.chunk.js.map": "/tipbox/static/js/453.9d2c6a83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.256e0df5.css",
-    "static/js/main.5705011c.js"
+    "static/js/main.b2484e5e.js"
   ]
 }
